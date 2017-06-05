@@ -19,3 +19,4 @@ packer_checksums:
   windows_amd64: sha256:54b2c92548f0a4f434771703f083b6e0fbbf73a8bf81963fd43e429d2561a4e0
 
 packer_install_parent_dir: /usr/local/bin
+packer_validate_certs: no

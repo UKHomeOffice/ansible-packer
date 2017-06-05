@@ -7,6 +7,7 @@
     dest=/tmp/{{packer_zip}}
     checksum={{packer_checksum}}
     mode=0644
+    validate_certs={{packer_validate_certs}}
 
 - name: create target packer dir...
   become: yes
